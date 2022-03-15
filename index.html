@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <a class="header__phone" href="tel:380963092145">+38 (096) 309 21 45</a>
+                <a class="header__email" href="#">layout585@gmail.com</a>
+                <a class="header__btn" href="#">Бесплатная консультация</a>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="container">
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="img/logo.png" alt=""></img>
+                    </a>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Контакты</a></li>
+
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="Lesson">
+            <div class="container">
+                <nav class="PMenu1">
+                    <ul>
+                        <li><a class="text">Введите данные сотрудника и нажмите на кнопку</a></li>
+                    </ul>
+                </nav>
+                <input type="text" value="Введите имя" id="Person1Name">
+                <input type="text" value="Введите фамилию" id="Person1Surname">
+                <input type="number" value="Введите зарплату" id="Person1Cash">
+                <div onclick="CreatePerson1();">Нажмите сюда, чтобы проверить введённые данные</div>
+                
+            </div>
+            <div class="container">
+                <nav class="PMenu2">
+                    <ul>
+                        <li><a class="text">Введите данные сотрудника и нажмите на кнопку</a></li>
+                    </ul>
+                </nav>
+                <input type="text" value="Введите имя" id="Person2Name">
+                <input type="text" value="Введите фамилию" id="Person2Surname">
+                <input type="number" value="Введите зарплату" id="Person2Cash">
+                <div onclick="CreatePerson2();">Нажмите сюда, чтобы проверить введённые данные</div>
+                <div onclick="Summ();">Нажмите сюда, чтобы суммировать зарплаты</div>
+                <script src="js/js.js"></script>
+            </div>
+    </header>
+</body>
+
+</html>
